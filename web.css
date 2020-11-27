@@ -1,0 +1,96 @@
+
+body {
+  	background-image: url(https://wallpapercave.com/wp/wp4716893.jpg);
+    font-family: "Architects Daughter";
+}
+
+.header {
+  height: 50px;
+  background-color: #e6b3ff;
+  color: #ff0080;
+}
+
+.header-left {
+    padding: 10px 20px;
+    font-size: 27px;
+    float: left;
+}
+
+.header-right {
+    float: right;
+    background-color: #ffe6f2;
+    transition: all 0.5s; /*untuk animasi yang berubah setiap saat fungsi hover*/
+}
+
+.header-right:hover {
+    background-color: #ffe6f2;
+}
+
+.header-right a {
+  line-height: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #290001;
+  display: block;
+}
+
+.container  {
+	width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+
+.title h1 {
+  font-size: 100px;
+  margin-bottom: 30px;
+}
+
+.top-wrapper {
+	padding: 100px 0 100px 0;
+	background-size: cover;
+	color: crimson;
+	text-align: center;
+}
+
+.top-wrapper h1 {
+	opacity: 0.7;
+	font-size: 50px;
+	letter-spacing: 5px;
+	margin-bottom: 10px;
+}
+
+.top-wrapper p {
+	opacity: 0.7;
+	margin-bottom: 10px;
+}
+
+.content {
+
+}
+
+.button {
+  margin-top: 30px;
+	padding: 12px 24px;
+	color: white;
+	display: inline-block;
+	opacity: 0.7;
+	border-radius: 4px;
+}
+
+.button:hover {
+	opacity: 1;
+}
+
+.signup {
+	background-color: crimson;
+}
+
+.facebook {
+	background-color: crimson;
+	margin-right: 10px;
+}
+
+.twitter {
+	background-color: crimson;
+}
